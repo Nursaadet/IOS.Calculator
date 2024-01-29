@@ -17,7 +17,7 @@ for(let i = 0; i < numbers.length; i++) {
     numbers[i].addEventListener("click", (e) => {
         let atr = e.target.getAttribute("value");
         if(isFirstValue === false) {
-            getFirstValue (atr)
+            getFirstValue (atr);
         }
         if(isSecondValue == false){
             getSecondValue(atr);
